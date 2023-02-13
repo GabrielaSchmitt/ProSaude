@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://kit.fontawesome.com/611f909487.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/customer.597ec797.css">
+  </head>
+  <body>
+<!-- NAVBAR -->
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/logo-prosaude.3dddf4f5.png" alt="logoProSaude" class="d-inline-block align-left img-fluid-2 img-fluid image-responsive" style="width:70%;height: 70%;">
+      </a>
+      <!-- Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/Servicos.html">Serviços</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/Convenios.html">Convênios</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/ContactUs.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/Jobs.html">Trabalhe Conosco</a>
+            </li>  
+          </ul>
+      </div>
+      </div>
+    </nav>
+    </div>
+
+<section class="m-2">
+<div class="container justify-content-center" style="padding-top: 80px;">
+        <div class="sec-title">
+          <div class="title"></div>
+            <h3>TRABALHE CONOSCO</h3>
+          </div>
+        <div class="inner-container">
+      <div class="row clearfix py-4 justify-content-center align-items-center">
+                  
+<!--Form Column-->
+<div class="form-column col-md-8 col-sm-12 col-xs-12">
+  <div class="inner-column">                        
+    <!--Contact Form-->
+    <div class="contact-form">
+      <form action="mail.php" method="POST" id="contact-form">
+        <div class="row clearfix justify-content-center align-items-center">
+          <div class="form-group col-md-6 col-sm-6 co-xs-12 p-1">
+            <label for="name" style="color: rgb(57, 174, 169);">Nome:</label>
+            <input class="form-control" type="text" name="name" id="name" value="" placeholder="*" required="">
+          </div>
+          <div class="form-group col-md-6 col-sm-6 co-xs-12 p-1">
+            <label for="surname" style="color: rgb(57, 174, 169);">Sobrenome:</label>
+            <input class="form-control" type="text" name="surname" id="surname" value="" placeholder="*" required="">
+          </div>
+          <div class="form-group col-md-6 col-sm-6 co-xs-12 p-1">
+            <label for="email" style="color: rgb(57, 174, 169);">E-mail:</label>
+            <input class="form-control" type="email" name="email" id="email" value="" placeholder="*" required="">
+          </div>
+          <div class="form-group col-md-6 col-sm-6 co-xs-12 p-1">
+            <label for="phone" style="color: rgb(57, 174, 169);">Telefone:</label>
+            <input class="form-control" type="number" name="phone" id="phone" value="" placeholder="*" required="">
+          </div>
+          <div class="col-md-6 p-1">
+            <label class="form-label" style="color: rgb(57, 174, 169);">Estado: </label>
+            <select id="estado" class="form-select my-select" name="estado">
+              <option selected="">Selecione um dos estados abaixo*</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+              <option value="EX">Estrangeiro</option>
+          </select>
+          </div>
+          <div class="col-md-6 p-1">
+            <label class="form-label" style="color: rgb(57, 174, 169);">Cidade:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group col-md-12 col-sm-12 co-xs-12 p-1">
+            <label for="address" style="color: rgb(57, 174, 169);">Endereço residêncial:</label>
+            <input class="form-control" type="text" name="address" id="address" value="" placeholder="*" required="">
+          </div>
+          <div class="form-group col-md-12 col-sm-12 co-xs-12 p-1">
+            <label for="vaga" style="color: rgb(57, 174, 169);">Selecione a vaga:</label>
+            <select class="form-select my-select" name="vaga" id="vaga">
+              <option selected="">Selecione uma das vagas abaixo*</option>
+              <option value="1">Angiologista</option>
+              <option value="2">Cirurgião do aparelho digestivo</option>
+              <option value="3">Cirurgião Vascular</option>
+              <option value="4">Dermatologista</option>
+              <option value="5">Estágio</option>
+              <option value="6">Geriatra</option>
+              <option value="7">Ginecologista</option>
+              <option value="8">Médico(a) geral</option>
+              <option value="9">Nutrólogo(a)</option>
+              <option value="10">Obstetra</option>
+              <option value="11">Pediatra</option>
+              <option value="12">Proctologista</option>
+              <option value="13">Recepcionista</option>
+              <option value="14">Urologista</option>
+            </select>
+          </div>
+          <div class="form-group col-md-12 col-sm-12 co-xs-12 p-1 pt-4">
+            <label for="academicrecords" style="color: rgb(57, 174, 169);">Formação Acadêmica:</label>
+            <textarea class="form-control  md-textarea" type="text" id="academicrecords" name="academicrecords" rows="5" placeholder="Digite sua formação acadêmica aqui.*" required=""></textarea>
+          </div>
+          <div class="col-md-12 p-1 pt-4"><h5 style="color: rgb(57, 174, 169);">Último emprego</h5></div>
+          <div class="col-md-6 p-1">
+            <label class="form-label" style="color: rgb(57, 174, 169);">Empresa:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-3 p-1">
+                <label class="form-label" style="color: rgb(57, 174, 169);" for="dataini">Data início:</label>     
+                <div class="input-group date" data-date-format="dd/mm/yyyy">
+                  <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-1">
+                <label class="form-label" style="color: rgb(57, 174, 169);" for="datafim">Data Fim:</label>      
+                <div class="input-group date" data-date-format="dd/mm/yyyy">
+                  <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                  </div>
+            </div>
+          </div>
+          <div class="col-md-12 p-1">
+            <label class="form-label" style="color: rgb(57, 174, 169);">Cargo:</label>
+            <input type="text" class="form-control" placeholder="Último cargo.">
+          </div>
+          <div class="col-md-12 p-1">
+            <textarea class="form-control  md-textarea" type="text" placeholder="Descrição das atividades exercidas."></textarea>
+          </div>
+          <div class="form-group col-md-12 col-sm-12 co-xs-12 p-1">
+          <div class="col-md-12 p-1">  
+            <div class="input-group w-50"></div>
+              <span class="input-group-text">
+                <i class="bi-linkedin px-1"></i><input type="url" id="typeURL" class="form-control" placeholder="Link do seu Linkedin.">
+              </span>
+              
+            </div>
+          </div>
+          <div class="col-md-12 p-1">
+            <label for="file" style="color: rgb(57, 174, 169);">Anexar Currículo:</label>
+            <div class="custom-file">
+            <input type="file" class="custom-file-input my-select" id="customFile">
+            <label class="custom-file-label" for="customFile"></label>
+          </div>
+            </div>
+          </div>
+          <div class="form-group col-md-12 col-sm-12 co-xs-12 p-1 flex-end">
+            <input type="submit" name="submit" value="Gravar" class="btn btn-info" style="float: right;">
+            <!-- <button class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</button> -->
+          </div>
+        </form></div>
+      
+    </div>
+    <!--End Contact Form-->
+  </div>
+</div>
+</div></div></section>
+
+<!-- WHATSAPP FLOATING BUTTON-->
+<a href="https://api.whatsapp.com/send?" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+<!-- FOOTER INFOS -->
+  <div class="container-fluid footer-info">
+    <div class="row justify-content-center" style="background-color: #4dafab;  padding-top: 50px; padding-bottom: 50px">
+      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <i class="fas fa-phone text-light"></i>
+        <strong class="text-uppercase text-light">fale conosco</strong>
+        <strong class="text-light">(41) 3333-4444</strong>
+        <br><br>
+        <i class="fas fa-map-marker-alt text-light"></i>
+        <i class="text-light" style="font-style: normal; text-transform: capitalize;">rua da capital paranaese</i>
+      <br><br>
+        <ul style="list-style-type: none; text-transform: capitalize; padding-left: 0; margin-bottom: 15px;">
+          <li>
+            <a href="https://www.facebook.com/" target="blank" class="social text-light">
+              <i class="fab fa-facebook-square"></i>
+              <i>facebook</i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="blank" class="social text-light">
+              <i class="fab fa-instagram text-light"></i>
+              <i>instagram</i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?" target="blank" class="social text-light">
+              <i class="fab fa-whatsapp text-light"></i>
+              <i>WhatsApp</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <i class="fas fa-info-circle  text-light"></i>
+        <strong class="text-uppercase text-light">informações</strong>
+        <p class="font-weight-normal  text-light">Consulte nossos planos e convênios, para maiores esclarecimentos contate-nos via nossas redes sociais. </p>
+        <p class="font-weight-normal  text-light"><small><small>Favor evitar o comparecimento presencial caso esteja transmitindo algum vírus, neste caso aconselhamos a solicitação de uma teleconsulta mediante a contato.</small></small>
+      </p>
+      </div>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+    <footer>
+        <div class="row claro p-3 ">
+            <div class="col-md-6">
+                <p class="text-dark">Copyright &copy; 2022 Luiz e Gabi</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-dark">Terms of Use</a> 
+                <span class="text-muted mx-2">|</span> 
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+<!-- Plugin pro Datapicker novo -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js"></script>
+<script>$('.input-group.date').datepicker({
+  format: "dd/mm/yyyy"
+});</script>
+
+    <script src="/src.e31bb0bc.js"></script>
+</body>
+</html>

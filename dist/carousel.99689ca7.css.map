@@ -1,0 +1,1 @@
+{"version":3,"sources":["carousel.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"carousel.99689ca7.css","sourceRoot":"..\\src","sourcesContent":[".center {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    text-align: center;\r\n    margin: 0.5rem;\r\n}"]}
